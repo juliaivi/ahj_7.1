@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HelpDesk</title>
+</head>
+<body>
+	<div class="roots" id="root">
+    <div class="container">
+      <div class="tikers">
+          <button class="add__btn">Добавить тикер</button>
+        <div class="list__tikers">
+          <table class="table">
+            <tbody>
+               
+            </tbody>
+          </table>
+        </div>
+        
+        <div class="popup d__none">
+          <form class="form__popup">
+              <div class="popup__title">
+                <h2 class="title title__add">Добавить описание</h2>
+                <h2 class="title title__change d__none">Изменить текст</h2>
+                <p class="popup__text">Краткое описание</p>
+                <input class="input__title" required>
+              </div>
+                
+              <div>
+                <p class="popup__text">Подробное описание</p>
+                <textarea class="textarea" required></textarea>
+              </div>
+
+              <div class="popup__btn ">
+                
+                <button class="btn btn__cancel">Отмена</button> 
+                <button class="btn btn__save">Ок</button>
+              </div>
+          </form>
+        </div>
+
+        <div class="popup delete d__none">
+          <h2 class="title">Удалить тикер</h2>
+          <p class="popup__text">Вы уверены, что хотите удалить тикет? Это действие необратимо.</p>
+          <button class="btn btn__cancel">Отмена</button> 
+          <button class="btn btn__save">Ок</button>
+        </div>
+      </div>
+      
+      </div>
+    </div>
+
+</body>
+</html>
